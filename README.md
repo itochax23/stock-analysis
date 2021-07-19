@@ -48,11 +48,10 @@ When the script was first created, it went through an array of 12 specific stock
             End If
         Next j
 ```
+### Final results
+![2017](Resources/VBA_Challenge_2017.png)
 
-### Refactored code example
-```
-here
-```
+![2018](Resources/VBA_Challenge_2018.png)
 
 ## Summary
 This summary will address the advantages and disadvantages of refactoring code and how these pros and cons applied to refactoring the original script written for this project.
