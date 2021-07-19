@@ -1,10 +1,17 @@
 # VBA of Wall Street
 
 ## Overview of Project
-Our client had a need to analyze stock data, and so a VBA was created in Excel to display the performance of one stock ticker specifically. However, upon seeing those results, there came a need to analyze multiple stock as potential alternatives. Given there were stock data for multiple years, we created macros that allowed him to input a year to review if he wanted to compare the performance of multiple stocks. Since he is not a data scientist, buttons and visual cues like conditional formatting were added to improve readability.
+Our client had a need to:
+* analyze stock data for DQ over time
+* analyze multiple stock as potential alternatives
+* analyze stock data for multiple years
+* allow him to input a year to review into the macro if he wanted to compare the performance of multiple stocks
+* add buttons and visual cues like conditional formatting to improve readability
+
+This work was done in Excel using VBA macros.
 
 ## Results
-Using images and examples of your code, we can compare the stock performance between 2017 and 2018, as well as the time it took to run the original script and the refactored script.
+Using images and examples of the code, we can compare the stock performance between 2017 and 2018, as well as the time it took to run the original script and the refactored script.
 
 ### Original code example
 When the script was first created, it went through an array of 12 specific stock tickers, not all of them. It looped through each ticker, then through each row to determine the total volume, starting price, and ending price, and would output it with formatting to a separate sheet.
